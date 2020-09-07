@@ -17,8 +17,6 @@ class GuestsController extends Controller
 
       $guest = Guest::all();
 
-      // dd('sono nel index');
-
         return view ('guest.index', compact('guest'));
     }
 
