@@ -9,7 +9,7 @@
  <ul>
    @foreach ($guest as $guest)
      <li>{{$guest->name}} {{$guest->lastname}}
-       <a href="{{route ('Guest.show', $guest->id) }}"><button type="button" class="btn btn-primary">Dettagli</button></a>
+       <a href="{{route ('Guest.show', $guest) }}"><button type="button" class="btn btn-primary">Dettagli</button></a>
      </li>
    @endforeach
  </ul>

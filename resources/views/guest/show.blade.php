@@ -6,7 +6,7 @@
 <h1>in questa pagina mostro i dettagli dei miei ospiti </h1>
 
 <div class="">
-  <h2>Titolo: {{$guest->lastname}}</h2>
+  <h2>anno di nascita: {{$Guest->date_of_birth}}</h2>
 </div>
 
 

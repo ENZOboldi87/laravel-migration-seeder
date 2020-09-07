@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 use App\Guest;
 use Faker\Generator as Faker;
 
-class GuestsTableSeeder extends Seeder
+class GuestTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.

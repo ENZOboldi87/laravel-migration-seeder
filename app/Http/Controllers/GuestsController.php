@@ -49,10 +49,10 @@ class GuestsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Guest $guest)
+    public function show(Guest $Guest)
     {
-      dd(compact('guest'));
-        return view ('guest.show', compact ('guest'));
+
+        return view ('guest.show', compact ('Guest'));
     }
 
     /**
